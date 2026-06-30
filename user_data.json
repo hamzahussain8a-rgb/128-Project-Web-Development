@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "name": "Hamza",
+      "password": "123",
+      "umeals": [
+        {
+          "title": "Grilled Chicken Salad",
+          "recipe": "Mix grilled chicken, lettuce, cucumber, and olive oil.",
+          "calories": "350 calories",
+          "image": "images/grilledchicken.png"
+        },
+        {
+          "title": "Protein Pancakes",
+          "recipe": "Mix oats, protein powder, and egg whites.",
+          "calories": "390 calories",
+          "image": "images/pancakes.png"
+        },
+        {
+          "title": "Quinoa Veggie Mix",
+          "recipe": "Cook quinoa with peas, carrots, and olive oil.",
+          "calories": "310 calories",
+          "image": "images/quinoa.png"
+        },
+        {
+          "title": "Turkey Wrap",
+          "recipe": "Fill a whole-grain tortilla with sliced turkey, lettuce, tomato, and light yogurt sauce.",
+          "calories": "330 calories",
+          "image": "images/wrap.png"
+        },
+        {
+          "title": "Falafel",
+          "recipe": "Blend chickpeas, garlic, onion, parsley, and spices, form balls, and bake or fry.",
+          "calories": "330 calories",
+          "image": "images/falafel.png"
+        }
+      ],
+      "uexercises": [
+        {
+          "title": "Push-Ups",
+          "description": "Keep your body straight and lower yourself until chest nearly touches the floor, then push back up.",
+          "reps": "3 sets of 12",
+          "image": "images/pushup.png"
+        }
+      ]
+    },
+    {
+      "name": "Rishabh",
+      "password": "123",
+      "umeals": [
+        {
+          "title": "Grilled Chicken Salad",
+          "recipe": "Mix grilled chicken, lettuce, cucumber, and olive oil.",
+          "calories": "350 calories",
+          "image": "images/grilledchicken.png"
+        },
+        {
+          "title": "Fruit & Nut Smoothie",
+          "recipe": "Blend banana, berries, almonds, and milk.",
+          "calories": "320 calories",
+          "image": "images/smoothie.png"
+        },
+        {
+          "title": "Turkey Wrap",
+          "recipe": "Fill a whole-grain tortilla with sliced turkey, lettuce, tomato, and light yogurt sauce.",
+          "calories": "330 calories",
+          "image": "images/wrap.png"
+        }
+      ],
+      "uexercises": [
+        {
+          "title": "Push-Ups",
+          "description": "Keep your body straight and lower yourself until chest nearly touches the floor, then push back up.",
+          "reps": "3 sets of 12",
+          "image": "images/pushup.png"
+        },
+        {
+          "title": "Squats",
+          "description": "Stand with feet shoulder-width apart and squat down keeping back straight, then return.",
+          "reps": "3 sets of 15",
+          "image": "images/squats.png"
+        },
+        {
+          "title": "Arm Circles",
+          "description": "Stand straight and rotate arms forward and backward in small circles.",
+          "reps": "3 sets of 20 sec each direction",
+          "image": "images/armcircles.png"
+        }
+      ]
+    },
+    {
+      "name": "syed hamza",
+      "password": "Hamza",
+      "membership": "Standard",
+      "umeals": [
+        {
+          "title": "Avocado Toast",
+          "recipe": "Mash avocado on whole grain bread and top with eggs.",
+          "calories": "280 calories",
+          "image": "images/avocadotoast.png"
+        }
+      ],
+      "uexercises": []
+    }
+  ]
+}

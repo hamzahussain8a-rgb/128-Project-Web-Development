@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fitness — Home</title>
+    <script defer src="final_script.js"></script>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <div class="img">
+      <h1 class="heading"><img src="images/fitness.png" size="25px"> FitLifeHub.com </h1>
+      <div class="nav_bar">
+        <a href="index.html" target="_parent"><button class="nav_btn" ><img src="icons/home.png" width="17px"> Home</button></a>
+        <a href="services.html" target="_parent"><button class="nav_btn"><img src="icons/services.png" width="17px"> Services</button></a>
+        <a href="founders.html" target="_parent"><button class="nav_btn"><img src="icons/founder.png" width="17px"> Founders</button></a>
+        <a href="contact_form.html" target="_parent"><button class="nav_btn"><img src="icons/contact.png" width="17px"> Contact Us</button></a>
+        <a href="login_page.html" target="_parent"><button class="nav_btn"><img src="icons/login.png" width="17px"> Login/Sign Up</button></a>
+      </div>
+    </div>
+    <br><br>
+    <div class="boxes">
+      <div class="wide-box" id="abtus-box"></div>
+      <div class="box" id="mission-box">Box 1</div>
+      <div class="box" id="vision-box">Box 2</div>
+      <div class="box" id="program1-box">
+        <img src="images/meal.png" width="200px">
+        <h2 class="section-title" onclick="window.location.href='meals.html'">Check Our Meal Plans &gt;</h2>
+      </div>
+
+    <div class="box" id="program2-box">
+      <img src="images/exercise.png" width="200px">
+      <h2 class="section-title" onclick="window.location.href='exercises.html'">Check Our Exercise Plans &gt;</h2>
+    </div>
+
+    <div class="wide-box" id="">
+      <h2>Leave a <span class="title_span">Review</span></h2>
+
+      <form id="commentForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="commentText" placeholder="Write your comment..." rows="4" required></textarea>
+      <input type="button" class="form_btn" onclick="addComment(document.getElementById('name').value, document.getElementById('commentText').value)" value="Post Comment"></input>
+      </form>
+
+      <div class="comments" id="commentsContainer"></div>
+      </div>
+    </div>
+    <br><br>
+
+    <footer>
+      <div class="footer">
+        @2025 Rights Reserved to Hamza
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
