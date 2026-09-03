@@ -136,3 +136,43 @@ GitHub: https://github.com/hamzahussain8a-rgb
 ## License
 
 This repository is intended for educational and portfolio purposes only.
+
+# AWS EC2 Deployment
+
+## Deployment Environment
+
+- Cloud Provider: AWS
+- Service: EC2
+- Operating System: Ubuntu Linux
+- Application Runtime: Node.js
+- Application Port: 8080
+- Connection: SSH
+
+## Deployment Steps
+
+1. Created an Ubuntu EC2 instance on AWS.
+2. Configured an AWS Security Group.
+3. Allowed SSH traffic on TCP port 22.
+4. Allowed application traffic on TCP port 8080.
+5. Connected to the EC2 instance using SSH.
+6. Installed Git, Node.js and npm.
+7. Cloned the GitHub repository.
+8. Installed dependencies using `npm install`.
+9. Started the application using `npm start`.
+10. Verified that Node.js was listening on port 8080.
+11. Accessed the application through the EC2 public IP.
+
+## AWS Security Group
+
+| Protocol | Port | Purpose |
+|----------|------|---------|
+| TCP | 22 | SSH |
+| TCP | 8080 | Web application |
+
+## Verification
+
+The application was successfully accessed through the EC2 public IP on port 8080.
+
+Example:
+
+http://EC2-PUBLIC-IP:8080
